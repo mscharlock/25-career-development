@@ -39,12 +39,11 @@
   * parse the buffer and use the root `<html>` element, subsequent HTML tags, and their text content to build a tree data structure
     * hint: you will need to refactor your node to allow a different type of data to be stored in the `.value` property. The remainder of the node should not change
       * ```javascript
-          Tree {
-            root: Node {
-              value: {
-                eleName: 'xxx',
-                textContent: 'yyy' (can be empty string??)
-              },
+          Tree = Node {
+            value: {
+              eleName: 'xxx',
+              textContent: 'yyy' (can be empty string??)
+            },
               children: [{Node}, {Node}, ...]
             }
           }
@@ -54,8 +53,6 @@
   * 2pts each
   * implement the ability to parse both classes & ids; and any other attribute nodes you would like to consider
     * there is a test file in /assets dir called stretch.html
-  * refactor your `prettyPrint()` method to display your tree as a valid HTML string
-    * this would be similar to what you would pass into a `.innerHTML()` method in JS
 
 #### Rubric:
   * Tests: 2pts
