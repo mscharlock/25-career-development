@@ -12,7 +12,7 @@ Here's my idea about how to build it, although I didn't really get to 3. I don't
 Download this repo
 
 
-
+It probably looks like I did nothing on this lab but I spent a bunch of time trying to figure out the problem domain and then doing some research online to try to find a jumping off point for how to convert the html into something more usable.
 
 --Notes from the lab docs
 Documentation
