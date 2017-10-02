@@ -25,6 +25,8 @@ fs.readFile('./assets/minimal.html', (err, data) => {
   // htmlWords.trim();
   // console.log(htmlWords.trim());
   // console.log(htmlWords.innerHTML);
+
+  //maybe we need to make it into a singly linked list to make sure that the kids go in the right spot?? hrmmm
 });
 
 //Ok maybe we put all <> things in an arr? A thought
